@@ -1,0 +1,12 @@
+{
+  "name": "FED_Build",
+  "version": "0.1.0",
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~1.10.1",
+    "normalize-css": "~2.1.2",
+    "jquery-mobile-bower": "~1.0.0",
+    "jasmine-jquery": "~1.5.2",
+    "sinonjs": "~1.7.1"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "concat": {
+    "mainjs": {
+      "src": ["<%= fedConfig.source.jsDir %>/glob.js",
+              "<%= fedConfig.source.jsDir %>/lib/*.js"],
+      "dest": "<%= fedConfig.server.jsDir %>/main.js"
+    },
+    "maincss": {
+      "src": ["<%= fedConfig.server.cssDir %>/reset.css",
+              "<%= fedConfig.server.cssDir %>/base.css",
+              "<%= fedConfig.server.cssDir %>/layout.css",
+              "<%= fedConfig.server.cssDir %>/components/*.css"],
+      "dest": "<%= fedConfig.server.cssDir %>/main.css"
+    }
+  },
+
+  "uglify": {
+    "mainjs": {
+      "files": {
+        "<%= fedConfig.dist.jsDir %>/main.min.js": "<%= fedConfig.server.jsDir%>/main.js"
+      }
+    }
+  },
+
+  "cssmin": {
+    "maincss": {
+      "files": {
+        "<%= fedConfig.dist.cssDir %>/main.css": "<%= fedConfig.server.cssDir%>/main.css"
+      }
+    }
+  }
+}

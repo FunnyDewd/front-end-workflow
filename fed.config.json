@@ -1,0 +1,38 @@
+{
+  "relative": {
+    "cssDir": "css",
+    "jsDir": "js",
+    "vendorDir": "vendor",
+    "imageDir": "assets/images",
+    "fontDir": "assets/fonts"
+  },
+  "source": {
+    "dir": "./source",
+    "cssDir": "./source/css",
+    "jsDir": "./source/js",
+    "imageDir": "./source/assets/images",
+    "fontDir": "./source/assets/fonts",
+    "vendorDir": "./source/vendor"
+  },
+  "server": {
+    "dir": "./.tmp",
+    "cssDir": "./.tmp/css",
+    "jsDir": "./.tmp/js",
+    "imageDir": "./.tmp/assets/images",
+    "fontDir": "./.tmp/assets/fonts",
+    "vendorDir": "./.tmp/vendor"
+  },
+  "dist": {
+    "dir": "./dist",
+    "cssDir": "./dist/css",
+    "jsDir": "./dist/js",
+    "imageDir": "./dist/assets/images",
+    "fontDir": "./dist/assets/fonts",
+    "vendorDir": "./dist/vendor"
+  },
+  "test":{
+    "dir": "./test",
+    "helpersDir": "./test/helpers",
+    "fixturesDir": "./test/fixtures"
+  }
+}
